@@ -36,7 +36,19 @@ export default class AdminHome extends Component {
 <Container style={styles.AdminHome}>
 
     <Grid>
-    <Row size={1} style={styles.topRow}></Row>
+    <Row size={1} style={styles.topRow}>
+      
+    <Grid>
+    <Col size={40} style={styles.leftTop}>
+        
+    </Col>
+    <Col size={60} style={styles.rightTop}>
+       
+    </Col>
+    </Grid>
+    
+    </Row>
+
     <Row size={1}></Row>
 
 
@@ -78,12 +90,21 @@ export default class AdminHome extends Component {
 
 const styles = StyleSheet.create({
   AdminHome: {
-    backgroundColor: 'navy',
+//    backgroundColor: 'navy',
     },
 
-    topRow: {
+    topRow: {      
+      margin: 6,
+    },
+
+    leftTop: {
       backgroundColor: 'yellowgreen',
     },
+
+    rightTop: {
+      backgroundColor: 'navy',
+    },
+
     bottomRow: {
       backgroundColor: 'white',
     },
