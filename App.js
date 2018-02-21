@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Expo from "expo";
 import HomeScreen from "./src/AdminScreen/index.js";
+
 export default class Eklipse_S5 extends Component {
   constructor() {
     super();
